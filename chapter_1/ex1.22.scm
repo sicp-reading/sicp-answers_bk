@@ -35,13 +35,14 @@
   (display elapsed-time))
 
 (define (search-for-primes from n)
-  (cond ((= n 0) (newline))
+  (cond ((= n 0) (newline) 'done)
         ((even? from) (search-for-primes (+ from 1) n))
         ((timed-prime-test from) (search-for-primes (+ from 2) (- n 1)))
         (else (search-for-primes (+ from 2) n))))
 
 (define (search n)
-  (search-for-primes n 3))
+  (display (search-for-primes n 3))
+  (newline))
 
 (search 1000)     ;; => #<time-duration 0.000020000>
 (search 10000)    ;; => #<time-duration 0.000063000>
