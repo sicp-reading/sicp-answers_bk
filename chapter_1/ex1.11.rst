@@ -1,7 +1,8 @@
-;;
-;; SICP Chapter1
-;; Exercise 1.11
-;;
+.. comment
+
+   SICP Chapter1
+   Exercise 1.11
+
 
 .. math::
    n<3
