@@ -1,7 +1,5 @@
-.. comment
-
-   SICP Chapter1
-   Exercise 1.12
+Exercise 1.12
+=====================
 
 
 パスカルの三角形の要素を求める

@@ -1,7 +1,5 @@
-.. comment
-
-   SICP Chapter1
-   Exercise 1.11
+Exercise 1.11
+=====================
 
 
 .. math::
