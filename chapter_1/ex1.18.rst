@@ -1,7 +1,5 @@
-.. comment
-
-   SICP Chapter1
-   Exercise 1.18
+Exercise 1.18
+=====================
 
 解法
 -----
