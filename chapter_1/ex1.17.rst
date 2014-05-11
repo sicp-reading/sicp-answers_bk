@@ -1,7 +1,5 @@
-.. comment
-
-   SICP Chapter1
-   Exercise 1.17
+Exercise 1.17
+=====================
 
 問
 ------
