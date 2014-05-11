@@ -1,7 +1,5 @@
-.. comment
-
-   SICP Chapter1
-   Exercise 1.16
+Exercise 1.16
+=====================
 
 解法
 ------
@@ -64,7 +62,11 @@
      (fast-expt-iter 1 b n))
 
    (fast-expt 2 8)
+<<<<<<< HEAD
    ; 256
+=======
+   ;; => 256
+>>>>>>> f4cf9deae3492cf1dc71ed813e6825a444ec3b1a
 
 また, この例であげた (fast-expt 2 8) の計算ステップは以下のようになる.
 
