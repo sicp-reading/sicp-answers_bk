@@ -58,7 +58,11 @@ double 演算と halve 演算使い, fast-expt と類似の対数的ステップ
            (else (+ a (multi a (- b 1))))))
 
    (multi 7 8)
+<<<<<<< HEAD
+   ; 56
+=======
    ;; => 56
+>>>>>>> f4cf9deae3492cf1dc71ed813e6825a444ec3b1a
 
 また, この例であげた (multi 7 8) の計算ステップは以下のようになる.
 
