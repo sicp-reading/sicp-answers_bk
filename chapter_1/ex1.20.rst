@@ -1,7 +1,5 @@
-.. comment
-
-   SICP Chapter1
-   Exercise 1.20
+Exercise 1.20
+=====================
 
 解法
 -------
