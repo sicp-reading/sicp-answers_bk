@@ -34,11 +34,7 @@ Exercise 1.18
      (multi-iter 0 a b))
 
    (multi 7 8)
-<<<<<<< HEAD
-   ; 56
-=======
    ;; => 56
->>>>>>> f4cf9deae3492cf1dc71ed813e6825a444ec3b1a
 
 また, この例であげた (multi 7 8) の計算ステップは以下のようになる.
 
