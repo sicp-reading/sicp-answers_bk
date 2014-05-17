@@ -1,10 +1,8 @@
-.. comment
-
-   SICP Chapter1
-   Exercise 1.11
-
+Exercise 1.11
+=====================
 
 .. math::
+
    n<3
    f(n) = n
 
@@ -34,4 +32,3 @@
         [(zero? n) a]
         [else (iter b c (+ c (* 2 b) (* 3 a)) (- n 1))]))
      (iter 0 1 2 n))
-
