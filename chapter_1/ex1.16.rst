@@ -10,7 +10,7 @@ Exercise 1.16
 
 - n = 0 の時, :math:`b^0 = 1`
 - n が偶数の時, :math:`(b^n/2) * (b^n/2) = b^n`
-- n が奇数の時, :math:`b * b^(n-1) = b^n`
+- n が奇数の時, :math:`b * b^{n-1} = b^n`
 
 を以下の fast-expt として定義する.
 
@@ -26,8 +26,8 @@ Exercise 1.16
 :math:`a * b^n` において以下のように考える.
 
 - n = 0 の時, :math:`a * b^0 = 1`
-- n が偶数の時, :math:`a * (b^2)^(n/2) = a * b^n`
-- n が奇数の時, :math:`ab * b^(n-1) = a * b^n`
+- n が偶数の時, :math:`a * (b^2)^{n/2} = a * b^n`
+- n が奇数の時, :math:`ab * b^{n-1} = a * b^n`
 
 この式を S 式に置き換える.
 

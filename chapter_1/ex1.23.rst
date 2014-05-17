@@ -1,7 +1,5 @@
-.. comment
-
-   SICP Chapter1
-   Exercise 1.23
+Exercise 1.23
+=====================
 
 .. sourcecode:: scheme
 

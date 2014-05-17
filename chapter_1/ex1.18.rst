@@ -43,7 +43,7 @@ Exercise 1.18
 - (multi-iter 0 (double 7) (halve 8))
 - (multi-iter 0 (+ 7 7) (/ 8 2))
 - (multi-iter 0 14 4)
-- ...
+- ...(以下繰り返し)
 - (multi 56 1)
 - (multi-iter (+ 0 56) 56 (- 1 1))
 - (multi-iter 56 56 0)

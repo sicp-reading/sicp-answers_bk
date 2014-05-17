@@ -9,7 +9,7 @@ Exercise 1.9
    (define (dec n)
      (- n 1))
 
-+ をそのまま定義しなおすと inc と dec の定義で使っている + と被り
+| + をそのまま定義しなおすと inc と dec の定義で使っている + と被り
 循環参照してしまうので, ここでは + の代わりに plus 関数を定義する.
 
 .. sourcecode:: scheme

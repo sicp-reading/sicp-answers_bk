@@ -30,4 +30,4 @@ Exercise 1.10
 
    (define (h n) (A 2 n))
 
-:math:`F_0 = 0, F_1 = 2, F_n = (F_(n-1))^2`
+:math:`F_0 = 0, F_1 = 2, F_n = (F_{n-1})^2`
