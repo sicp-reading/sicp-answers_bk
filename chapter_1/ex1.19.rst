@@ -6,7 +6,7 @@ Exercise 1.19
 
 a ← a + b, b ← a への変換 T を以下の行列式に置き換えて計算する.
 
-.. sourcecode:: math
+.. math::
 
    \begin{pmatrix}
    a+b\\ 
@@ -50,7 +50,7 @@ a ← a + b, b ← a への変換 T を以下の行列式に置き換えて計�
 
 次に, a ← bq + aq + apとb ← bp + aq への変換 T' を同様に考えて行く.
 
-.. sourcecode:: math
+.. math::
 
    \begin{pmatrix}
    bq + aq + ap\\ 
@@ -119,7 +119,7 @@ a ← a + b, b ← a への変換 T を以下の行列式に置き換えて計�
 
 これを使って :math:`T_{p,q}^2` を展開し, 解が :math:`T_{p',q'}` となることを証明する.
 
-.. sourcecode:: math
+.. math::
 
    T_{p,q}^2
    =
@@ -155,7 +155,7 @@ a ← a + b, b ← a への変換 T を以下の行列式に置き換えて計�
 
 これらを使って命題である (fib-iter a b p q count) を定義する. 問題より,
 
-.. sourcecode:: math
+.. math::
 
    \begin{cases}
    & \text{ n が奇数: }  A_n = (T^{n/2})^2 A_0 \\ 
