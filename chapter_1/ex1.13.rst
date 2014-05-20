@@ -23,7 +23,7 @@ Exercise 1.13
 
    n = k, k + 1 のとき与式が成り立つと仮定すると
 
-   Fib(k) = \frac{\phi^k - \psi^k}{\sqrt 5} , Fib(k+1) = \frac{\phi^(k+1) - \psi^(k+1)}{\sqrt 5}
+   Fib(k) = \frac{\phi^k - \psi^k}{\sqrt 5} , Fib(k+1) = \frac{\phi^{k+1} - \psi^{k+1}}{\sqrt 5}
 
    n = k + 2 のとき
 
@@ -31,13 +31,13 @@ Exercise 1.13
 
    Fib(k+2) = Fib(k+1) + Fib(k)
 
-            = \frac{\phi^(k+1) - \psi^(k+1)}{\sqrt 5} + \frac{\phi^k - \psi^k}{\sqrt 5}
+            = \frac{\phi^{k+1} - \psi^{k+1}}{\sqrt 5} + \frac{\phi^k - \psi^k}{\sqrt 5}
 
             = \frac{\phi^k (k+1) - \psi^k (k+1)}{\sqrt 5}
 
             = \frac{\phi^k \phi^2 - \psi^k \psi^2}{\sqrt 5}
 
-            = \frac{\phi^(k+2) - \psi^(k+2)}{\sqrt 5}
+            = \frac{\phi^{k+2} - \psi^{k+2}}{\sqrt 5}
 
    よって [1], [2] より自然数 n について Fib(n) = \frac{\phi^n - \psi^n}{\sqrt 5} であることが証明できた.
 
