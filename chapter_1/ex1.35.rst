@@ -14,7 +14,7 @@ Exercise 1.35
    x - 1 - \frac{1}{x} = 0
    x = 1 + \frac{1}{x}
    ここで, f(x) = x の時,
-   f(x) = x = 1 + \flac{1}{x}
+   f(x) = x = 1 + \frac{1}{x}
 
 よって, :math:`x \mapsto 1 + \frac{1}{x}` が示せた.
    x |-> 1 + 1/x has proven.
